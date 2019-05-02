@@ -1,0 +1,145 @@
+.home_banner_area {
+  z-index: 1;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(92, 77, 66, 0.8)),
+      to(rgba(92, 77, 66, 0.8))
+    ),
+    url("laptop.jpeg");
+  background-size: cover;
+  
+}
+.home_banner_area .banner_inner {
+  overflow: hidden;
+  width: 100%;
+  padding: 200px 0px 200px 0px;
+}
+.home_banner_area .banner_inner .banner_content {
+  color: #fff;
+}
+.home_banner_area .banner_inner .banner_content .col-lg-9 {
+  vertical-align: middle;
+  align-self: center;
+}
+.home_banner_area .banner_inner .banner_content h2 {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: "Heebo", sans-serif;
+  line-height: 60px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.home_banner_area .banner_inner .banner_content p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  max-width: 565px;
+  margin-bottom: 40px;
+  line-height: 26px;
+  font-size: 16px;
+}
+.home_banner_area .banner_inner .banner_content .banner_map_img {
+  text-align: right;
+}
+
+.card{
+    margin-top:20px;
+}
+
+#content1 {
+  padding-top: 30px;
+  font-size: 15px;
+  background-color: #d3d3d3;
+}
+
+#cntn1,
+#cont1,
+#new {
+  margin-left: 10px;
+}
+
+.circle-wrap {
+  margin: 50px auto;
+  width: 150px;
+  height: 150px;
+  background: #e6e2e7;
+  border-radius: 50%;
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap .circle .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap .circle .mask .fill {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: blue;
+}
+.circle-wrap .circle .mask.full,
+.circle-wrap .circle .fill {
+  transform: rotate(100deg);
+}
+
+@keyframes fill {
+  100% {
+    transform: rotate(100deg);
+  }
+}
+
+.circle-wrap .inside-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: #fff;
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.circle1,
+.circle2,
+.circle3{
+  text-align: center;
+}
+
+#content3,
+#content4 {
+padding-top: 50px;
+}
+.cont3 {
+color: white;
+background-color: black;
+margin-left: -30px;
+padding-top: 50px;
+padding-bottom: 357px;
+padding-left: 40px;
+
+}
+.margin-top-s{
+  margin-top:50px;
+}
+
+ #cont4 {
+  margin-left: 20px;
+}
+
+
+footer{
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: center;
+}

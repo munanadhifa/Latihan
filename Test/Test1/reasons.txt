@@ -1,0 +1,3 @@
+Disini saya menggunakan bootstrap karena dengan menggunakan bootstrap dapat memudahkan untuk membuat website yang diinginkan,
+mudah untuk di custom sendiri dan juga dengan menggunakan bootstrap dapat membuat website lebih rapih. Dan jika ingin 
+memakai grid di bootstrap dapat dengan mudah untuk melihat bagaimana jika ingin membuat 3 grid atau lebih dalam 1 halaman. 

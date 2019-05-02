@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <!-- <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>    
+
+  
+    
+</head>
+
+<body>
+    <div id="container">
+        <h2 id="formregis">Form Registration</h2>
+        <form class="ui form" id="regis" action="message.html" method="POST" onsubmit="return ValidateForm()" >
+            <div class="field" id="form1">
+                <label> Full Name * </label>
+                <input type="text" id="fullname" placeholder="Full Name">
+                <span id="fname"></span>
+            </div>
+
+            <div class="field" id="form2">
+                <label>E-mail *</label>
+                <input type="email" id="email" placeholder="joe@gmail.com" >
+                <span id="e-mail"></span>
+            </div>
+
+            <div class="inline fields" id="form3">
+                <label>Phone Number</label>
+                <div class="field">
+                    <input type="text" id="pnumber" placeholder="xxx">
+                    <span id="phnumber"></span>
+                </div>
+                
+            </div>
+
+            <div class="field" id="form5" >
+                <label>Address</label>
+                <div class="field">
+                    <input type="text" id="address" placeholder="Address">
+                    <span id="add"></span>
+                </div>
+            </div>
+
+            <div class="field" id="form6">
+                <label>Username *</label>
+                <div class="field">
+                    <input type="text" id="uname" placeholder="Username">
+                    <span id="user"></span>
+                </div>
+            </div>
+
+            <div class="field" id="form7">
+                <label>Password *</label>
+                <div class="field">
+                    <input type="text" id="pass" placeholder="Password">
+                    <span id="Pass"></span>
+                </div>
+            </div>
+
+            <div class="field" id="form8" >
+                <label>Confirm Password *</label>
+                <div class="field">
+                    <input type="text" id="confpass" placeholder="Confirm Password">
+                    <span id="confPass"></span>
+                </div>
+            </div>
+
+            <div class="inline field" id="form9">
+                <div class="ui checkbox">
+                    <input type="checkbox" tabindex="0">
+                    <label>I agree to the Terms and Conditions</label>
+                </div>
+            </div>
+            <button class="ui button" type="submit" id="btn">Submit</button>
+        </form>
+
+
+</body>
+
+</html>
